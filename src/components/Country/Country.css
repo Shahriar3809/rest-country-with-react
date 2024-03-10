@@ -4,3 +4,21 @@
     padding: 15px;
     border-radius: 15px;
 }
+
+.country-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.visited{
+    background: sandybrown;
+    color: black;
+}
+
+.btn {
+    padding: 20px;
+    background: green;
+    color: white;
+    cursor: pointer;
+}
